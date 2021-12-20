@@ -1,5 +1,6 @@
 .pytest_cache/
 
+*.tar
 *.tar.gz
 
 *.fits
