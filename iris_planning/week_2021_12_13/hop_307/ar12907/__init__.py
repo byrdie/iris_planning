@@ -12,7 +12,7 @@ def to_video():
     iris_planning.video.convert_folder(
         folder_input=path_base / 'data',
         file_output=path_base / f'ar12907.mp4',
-        frame_interval=1/60 * u.s,
+        frame_interval=1/24 * u.s,
         # num_files=3,
     )
 
